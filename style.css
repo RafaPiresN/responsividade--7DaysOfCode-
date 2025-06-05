@@ -296,6 +296,9 @@ main {
     z-index: -1000;
     pointer-events: none;
 }
+ .cadastrar {
+        display: none;
+    }
 
 
 @media screen and (min-width: 1024px) {
@@ -375,6 +378,9 @@ main {
     }
     .calendario {
         margin-bottom: 0.5em;
+    }
+    .cadastrar {
+        display: none;
     }
     
 }

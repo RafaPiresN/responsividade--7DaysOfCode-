@@ -295,8 +295,14 @@ main {
     flex-direction: column;
     z-index: -1000;
     pointer-events: none;
-}
- .cadastrar {
+    }
+    .cadastrar {
+        display: none;
+    }
+    .opcoes__cadastro:checked~.lista-cadastro {
+        display: none;
+    }
+    .lista-cadastro {
         display: none;
     }
 
@@ -380,6 +386,15 @@ main {
         margin-bottom: 0.5em;
     }
     .cadastrar {
+        display: none;
+    }
+    .cadastrar__menu {
+        display: none;
+    }
+    .opcoes__cadastro:checked~.lista-cadastro {
+        display: none;
+    }
+    .lista-cadastro {
         display: none;
     }
     
